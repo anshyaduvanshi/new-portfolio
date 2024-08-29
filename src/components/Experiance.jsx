@@ -1,33 +1,23 @@
-import React from "react";
-
-function Experiance() {
-  
+import React from 'react';
+function Experience() {
   return (
-   <div>  <h1 className="text-green-600 font-semibold text-xl ml-2 ..."> Experiance </h1>
-    
-    
-  
-   <h2 className="font-semibold"> 1.Web devlopment Intern -</h2>
-   
-    <pre><p className="font-semibold">     Company Name:
-     <span> learn & Build  </span></p>
-     <p className="font-semibold">      Duration:
-     <span> july'2022-august'2022  </span></p>
-     </pre> 
-
-     <h2 className="font-semibold"> 2.Python Intern -</h2>
-   
-   <pre><p className="font-semibold">     Company Name:
-    <span> Matrix Infotech  </span></p>
-    <p className="font-semibold">      Duration:
-    <span> august '2023-September' 2023  </span></p>
-    </pre> 
-     
-
-    
-
-   </div>
+    <div>
+      <h2 className="text-green-600 font-semibold text-xl"> Experience</h2>
+      <div className="t">
+      
+        <h3 >1. Web Development Intern</h3>
+                          <p><strong>Company Name:</strong> Learn & Build</p>
+                          <p><strong>Duration:</strong> July 2022 - August 2022</p>
+                         
+      </div>
+       <br/>
+      <div className="t">
+        <h3>2. Python Intern</h3>
+        <p><strong>Company Name:</strong> Matrix Infotech</p>
+        <p><strong>Duration:</strong> August 2023 - September 2023</p>
+      </div>
+    </div>
   );
 }
 
-export default Experiance;
+export default Experience;

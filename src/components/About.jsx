@@ -5,6 +5,7 @@ import css from "../../public/css.jpg";
 import javascript from "../../public/javascript.png";
 import c1 from "../../public/c1.jpg";
 import tailwind from "../../public/tailwind.jpg";
+import Experience from "./Experiance";
 
 function About() {
   const cardItem = [
@@ -47,7 +48,7 @@ function About() {
     >
       <div>
         <h1 className="text-3xl font-bold mb-5">About</h1>
-        <p>
+        <p className="a">
           Hello, I'm Ansh, a passionate Web developer, I strive to create impactful and
           visually stunning Software solutions that leave a lasting impression.
         </p>
@@ -55,9 +56,10 @@ function About() {
         <h1 className="text-green-600 font-semibold text-xl">
           Education 
         </h1>
-       <p>I am currently pursuing a Bachelor's degree in Computer Science and Engineering (artificial intelligence)at Poornima College of Engineering , jaipur. I have completed 6 semesters and have a CGPA of 7.8.</p>
-       <pre>XII(RBSE)-S.S Jain Subodh school,Jaipur  <span>   87.6|2021</span> </pre>
-       <pre>X(RBSE)-Jaicon Subodh school,Jaipur  <span>   72.33|2019</span> </pre>
+       <p className="a">I am currently pursuing a Bachelor's degree in Computer Science and Engineering (artificial intelligence)at Poornima College of Engineering , jaipur. I have completed 6 semesters and have a CGPA of 7.8.</p>
+       <p className="a">XII(RBSE)-S.S Jain Subodh school, Jaipur <span class="details"> 87.6% | 2021</span></p>
+<p class="a">X(RBSE)-Jaicon Public  school, Jaipur <span class="details"> 72.33% | 2019</span></p>
+
 
         <br />
         <br />
@@ -92,36 +94,28 @@ function About() {
        
         <span>
         <h1 className="text-green-600 font-semibold text-xl"> Projeccts </h1>
-       <p className="font-semibold">1.Portfolio</p>       
-         <p>      Designed and developed a personal portfolio website using React Js and Tailwind CSS</p>
-         
-         <p className="font-semibold">2.Read and Edit a Post</p>   
-          <p>         Developed a dynamic web applications using React.js for user authentication,post creation and editing functionalities and also use Redux toolkit and Apprwrit for authentication </p>
+       <h1> <p className="font-semibold text-xl">1.Portfolio</p>  </h1>    
+         <p className="font-semibold text-xl"> Designed and developed a personal portfolio website using React Js and Tailwind CSS</p>
+         <br/>
+         <h1 className="font-semibold text-xl">2. Sorting Visualizer</h1>
+  
+        <p className="font-semibold text-xl">Technologies used : HTML, CSS, JavaScript, ReactJS</p>
+        <p className="font-semibold text-xl">Developed a dynamic sorting visualizer to demonstrate various sorting algorithms including Bubble Sort, Selection Sort, Insertion Sort,  and Merge Sort.Implemented features like speed control and algorithm selection to allow users to customize and interact with the visualization.</p>
         </span>
+        <p className="font-semibold text-xl">Project Link :  <a href="https://ansh1.netlify.app/" target="_blank"> <u>https://ansh1.netlify.app/ </u></a> </p>
         <br />
         <br />
         <h1 className="text-green-600 font-semibold text-xl">
-          Achievements & Awards
+          Achievements & Certificate
         </h1>
-        <span>
-        
+        <span className="a">
         Publish review paper on chatbot(2022) <br></br>
-        Winner in NSP(Non-Syllabus project) 
-        
+        Winner in NSP(Non-Syllabus project) <br></br>
+        Coursera: Machine Learning on Google Cloud 
         </span>
-        <br />
-        <br />
-        <h1 className="text-green-600 font-semibold text-xl">
-          Mission Statement
-        </h1>
-        <p>
-          My mission is to leverage my skills and creativity to deliver
-          innovative [Your Field] solutions that exceed client expectations and
-          contribute positively to the digital landscape. I am committed to
-          continuous learning and growth, always seeking new challenges and
-          opportunities to expand my horizons.
-        </p>
       </div>
+      <br/>
+      <Experience></Experience>
     </div>
   );
 }

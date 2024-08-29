@@ -36,7 +36,7 @@ function Home() {
               />
             </div>
             <br />
-            <p className="text-sm md:text-md text-justify">
+            <p className="text-xl md:text-md text-justify  font-bold  ">
             I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.
             </p>
             <br />
